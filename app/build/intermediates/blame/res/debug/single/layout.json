@@ -48,6 +48,10 @@
         "source": "C:\\Users\\Admin\\.android\\build-cache\\1e841d76fb31520bde3efc1f4d12d16e03ee80d4\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
+        "merged": "D:\\Android\\APDRitualka\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
+        "source": "D:\\Android\\APDRitualka\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
         "merged": "D:\\Android\\APDRitualka\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\Admin\\.android\\build-cache\\1e841d76fb31520bde3efc1f4d12d16e03ee80d4\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
