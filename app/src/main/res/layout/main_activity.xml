@@ -9,4 +9,10 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar" />
 
+    <Button
+        android:id="@+id/buttonRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Регистрация" />
+
 </LinearLayout>

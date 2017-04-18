@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Ритуалка</string>
+    <string name="user_name">Имя</string>
+    <string name="user_surname">Фамилия</string>
+    <string name="user_email">Email</string>
+    <string name="user_phone">Телефон</string>
+    <string name="registration">Регистрация</string>
+    <string name="fields_not_filled">Не все поля заполнены!</string>
+    <string name="is_not_email">Неправильный Email!</string>
+    <string name="user_save">Пользователь сохранен!</string>
+    <string name="user_not_save">Пользователь не сохранен!</string>
 </resources>
