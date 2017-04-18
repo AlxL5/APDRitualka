@@ -4,6 +4,7 @@ package com.alxl5.apdritualka;
         import android.content.Intent;
         import android.os.Bundle;
         import android.support.annotation.Nullable;
+        import android.support.v4.widget.DrawerLayout;
         import android.support.v7.app.AppCompatActivity;
         import android.support.v7.widget.Toolbar;
         import android.view.MenuItem;
@@ -12,6 +13,7 @@ package com.alxl5.apdritualka;
 
 public class MainActivity extends AppCompatActivity {
 
+    private DrawerLayout drawerLayout;
     private Toolbar toolbar;
     //private Button buttonRegistration;
 
@@ -22,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.main_activity);
 
         initToolbar();
+
+        initNavigationView();
 /*
         buttonRegistration = (Button) findViewById(R.id.buttonRegistration);
         buttonRegistration.setOnClickListener(new View.OnClickListener() {
@@ -31,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });*/
+    }
+
+    private void initNavigationView() {
+        DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.layout.navigation_header);
     }
 
     private void initToolbar() {
