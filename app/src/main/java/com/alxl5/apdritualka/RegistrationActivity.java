@@ -87,6 +87,8 @@ public class RegistrationActivity extends Activity {
 
                 if (checkLength && checkEmail && dbUser.insertUser(user) != 0) {
                     Toast.makeText(getApplicationContext(), R.string.user_save, Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(RegistrationActivity.this, MainActivity.class);
+                    startActivity(intent);
                 } else
                     Toast.makeText(getApplicationContext(), R.string.user_not_save, Toast.LENGTH_SHORT).show();
             }

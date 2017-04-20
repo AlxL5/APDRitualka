@@ -9,4 +9,5 @@
     <string name="is_not_email">Неправильный Email!</string>
     <string name="user_save">Пользователь сохранен!</string>
     <string name="user_not_save">Пользователь не сохранен!</string>
+    <string name="reset_db">Reset DB</string>
 </resources>
