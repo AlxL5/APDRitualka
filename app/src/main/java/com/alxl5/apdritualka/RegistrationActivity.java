@@ -1,6 +1,7 @@
 package com.alxl5.apdritualka;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -16,7 +17,7 @@ import android.widget.Toast;
 import com.alxl5.apdritualka.data.DBUser;
 import com.alxl5.apdritualka.models.User;
 
-public class RegistrationActivity extends AppCompatActivity {
+public class RegistrationActivity extends AppCompatActivity{
 
     private Toolbar toolbar;
     private TextView userName;
@@ -38,6 +39,10 @@ public class RegistrationActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         setTheme(R.style.AppDefaultTheme);
         super.onCreate(savedInstanceState);
+        /**
+         * Только вертикальная ориентация
+         */
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.registration_form_activity);
 
         initWidgets();

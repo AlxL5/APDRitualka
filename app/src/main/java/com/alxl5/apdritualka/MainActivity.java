@@ -1,6 +1,8 @@
 package com.alxl5.apdritualka;
 
+import android.app.*;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.widget.DrawerLayout;
@@ -25,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         setTheme(R.style.AppDefaultTheme);
         super.onCreate(savedInstanceState);
+        /**
+         * Только вертикальная ориентация
+         */
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.main_activity);
 
         dbUser = new DBUser(this);
